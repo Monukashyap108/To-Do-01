@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a686d5;
+    display: grid;
+    place-content: center;
+
+}
+.main{
+    width: 60vw;
+    height: 600px;
+    border-radius: 7px;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 30px 2px rgb(22, 21, 21);
+    background-color: #6e6a6a;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+      
+}
+.list
+{
+    max-width: 300px;
+    max-height: 30vh;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.ol li:hover{
+    border:1px solid white;
+    cursor: pointer;
+    
+}
+ #ol
+{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    /* list-style: none; */
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 4px;
+    cursor: pointer;
+    background:  #ded7d7;padding-left: 30px;
+    
+}
+#li{
+    
+    padding-top: 4px;
+    /* display: none; */
+     
+}
+ 
+.btn{
+    width: 240px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 65px;
+    padding-left: 10px;
+    border-radius: 3px;
+    border :none;
+    font-weight: 100;
+  
+    font-size: 20px;
+    font-weight: 100;
+    
+    
+}
+.btn:hover{
+    background-color:rgb(76, 119, 76)  ;
+    /* border :none; */
+    border:1px solid black;
+    color:white;
+}
+.order{
+    color:whitesmoke
+    
+}
+.form{
+    
+}
+input{
+    margin-top: 20px;
+    width:400px;
+    height: 55px;
+    padding-left: 10px;
+    background-color: #b4aab7;
+    outline: white;
+    color:rgb(14, 10, 10);
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+}
+input:hover{
+    border: 1px solid rgb(140, 135, 143);
+
+}
+img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    padding:3px;
+    border-radius: 2px;
+    margin-top: -25px;
+
+}
+.img{
+      display: flex;  
+      justify-content:end;
+      padding:1px;
+      gap: 5px;
+}
+img:hover{
+    border: 1px solid ;
+    border: 1px solid black;
+}
+
+@media (max-width: 600px) {
+  input[type="text"],
+  button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  input{
+    margin-top: 20px;
+    width:200px;
+    height: 55px;
+    
+}
+.btn{
+    width: 240px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 5px;
+    
+   
+    
+    
+}
+#ol
+{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    /* list-style: none; */
+    max-width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 4px;
+    cursor: pointer;
+    background:  #ded7d7;padding-left: 30px;
+    margin-left: -40px;
+    
+}
+.main{
+    width:  300px;
+    height: 600px;
+    border-radius: 7px;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 30px 2px rgb(22, 21, 21);
+    background-color: #6e6a6a;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+      
+}
+
+}
