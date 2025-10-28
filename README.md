@@ -8,7 +8,7 @@ A simple and responsive To-Do application built with **HTML JS** and **CSS** to 
 
 - ➕ Add new tasks  
 - 🗑️ Delete tasks  
-- ⚡ Fast and clean UI with Tailwind CSS
+- ⚡ Fast and clean UI with  CSS
 
 ---
 
@@ -19,3 +19,4 @@ A simple and responsive To-Do application built with **HTML JS** and **CSS** to 
 - **JS** – Working 
 
 ---
+
